@@ -8,9 +8,9 @@ var bio = {
 		"twitter": "@leomartinez2015",
 		"location": "Barranquilla, Colombia"
 	},
-	"welcomeMessage": "Studying Frontend Development at Udacity and enjoying the challenge",
+	"welcomeMessage": "Junior Frontend Developer",
 	"skills": [
-		"Python", "HTML", "CSS", "Javascript", "Mongodb", "Teaching"
+		"Python", "Django", "HTML", "CSS", "Javascript", "Mongodb", "Teaching"
 	],
 	"biopic": "images/perfil2.jpg",
 	displayBio: function() {
@@ -75,7 +75,31 @@ var education = {
 		  	"school": "Mongodb University",
 		  	"dates": 2014,
 		  	"url": "https://university.mongodb.com/courses/M101P/about"
-	    }
+	    },
+	    {
+		  	"title": "Intro to HTML and CSS",
+		  	"school": "Udacity",
+		  	"dates": 2015,
+		  	"url": "https://www.udacity.com/course/intro-to-html-and-css--ud304"
+	    },
+	    {
+		  	"title": "Intro to HTML and CSS",
+		  	"school": "Udacity",
+		  	"dates": 2015,
+		  	"url": "https://www.udacity.com/course/javascript-basics--ud804"
+	    },
+	    {
+		  	"title": "Introduction to Computational Thinking and data Science",
+		  	"school": "edX",
+		  	"dates": 2015,
+		  	"url": "https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2"
+	    },
+	    {
+		  	"title": "Mongodb for Nodejs Developers",
+		  	"school": "Mongodb University",
+		  	"dates": 2015,
+		  	"url": "https://university.mongodb.com/courses/M101JS/about"
+	    },
 	],
 	displaySchool: function() {
     	for (i in this.schools) {
@@ -110,14 +134,14 @@ var work = {
 		  	"employer": "Centro Colombo-Americano",
 		  	"title": "English Teacher",
 		  	"dates": "February 2003-2015",
-		  	"description": "I teach English to children, teenagers and adults",
+		  	"description": "I taught English to children, teenagers and adults",
 		  	"location": "Barranquilla, Colombia"
 	    },
 	    {
 		  	"employer": "Instituto Experimental del Atlantico",
 		  	"title": "Chemistry Teacher",
 		  	"dates": "August 2010-2015",
-		  	"description": "I teach Chemistry in one of the best  schools in Colombia",
+		  	"description": "I taught Chemistry in one of the best  schools in Colombia",
 		  	"location": "Barranquilla, Colombia"
 	    }
 	],
@@ -139,6 +163,7 @@ var projects = {
 	"projects": [
 	    {
 		  	"title": "Word Scrambler",
+		  	"link": "http://pacific-mesa-1286.herokuapp.com/",
 		  	"dates": "2014",
 		  	"description": "A simple Heroku app to practice Python and Bootstrap",
 		  	"images": [
@@ -147,6 +172,7 @@ var projects = {
 	    },
 	    {
 		  	"title": "Orange Udacity Mug",
+		  	"link": "http://leonardomartinez.co/orange",
 		  	"dates": "2014",
 		  	"description": "My first poject at Udacity Nanodegree",
 		  	"images": [
@@ -155,10 +181,20 @@ var projects = {
 	    },
 	    {
 		  	"title": "Frontend Portfolio",
+		  	"link": "http://leonardomartinez.co/frontend/",
 		  	"dates": "2014",
 		  	"description": "The second project I accomplished for the Udacity Nanodegree",
 		  	"images": [
 		  	  "images/frontend.png"
+		  	]
+	    },
+	    {
+		  	"title": "Data Visualizer",
+		  	"link": "http://visualizador.com.co",
+		  	"dates": "2015",
+		  	"description": "A site to visualize the results at Pruebas Saber 11",
+		  	"images": [
+		  	  "images/visor.png"
 		  	]
 	    }
 	],
@@ -166,6 +202,7 @@ var projects = {
 		for (i in this.projects) {
 			$('#projects').append(HTMLprojectStart);
 			var formattedProjectTitle = HTMLprojectTitle.replace('%data%', this.projects[i].title);
+			formattedProjectTitle = formattedProjectTitle.replace('%link%', this.projects[i].link);
 			var formattedProjectDates = HTMLprojectDates.replace('%data%', this.projects[i].dates);
 			var formattedProjectDescription = HTMLprojectDescription.replace('%data%', this.projects[i].description);
 			$('.project-entry:last').append(formattedProjectTitle + formattedProjectDates + formattedProjectDescription);
