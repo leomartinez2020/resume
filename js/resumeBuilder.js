@@ -105,6 +105,7 @@ var education = {
     	for (i in this.schools) {
     		$('#education').append(HTMLschoolStart);
     		var formattedSchoolName = HTMLschoolName.replace('%data%', this.schools[i].name);
+			formattedSchoolName = formattedSchoolName.replace('%link%', this.schools[i].url);
     		var formattedSchoolDegree = HTMLschoolDegree.replace('%data%', this.schools[i].degree);
     		var formattedSchoolDates = HTMLschoolDates.replace('%data%', this.schools[i].dates);
     		var formattedSchoolLocation = HTMLschoolLocation.replace('%data%', this.schools[i].location);
@@ -120,9 +121,11 @@ var education = {
     	$('#education').append(HTMLschoolStart);
     	for (i in this.onlineCourses) {
     		var formattedOnlineTitle = HTMLonlineTitle.replace('%data%', this.onlineCourses[i].title);
+			formattedOnlineTitle = formattedOnlineTitle.replace('%link%', this.onlineCourses[i].url);
     		var formattedOnlineSchool = HTMLonlineSchool.replace('%data%', this.onlineCourses[i].school);
     		var formattedOnlineDates = HTMLonlineDates.replace('%data%', this.onlineCourses[i].dates);
     		var formattedOnlineURL = HTMLonlineURL.replace('%data%', this.onlineCourses[i].url);
+			formattedOnlineURL = formattedOnlineURL.replace('%link%', this.onlineCourses[i].url);
     		$('.education-entry:last').append(formattedOnlineTitle + formattedOnlineSchool + formattedOnlineDates + formattedOnlineURL + '<hr><br>');
     	}
     }
@@ -165,7 +168,7 @@ var projects = {
 		  	"title": "Word Scrambler",
 		  	"link": "http://pacific-mesa-1286.herokuapp.com/",
 		  	"dates": "2014",
-		  	"description": "A simple Heroku app to practice Python and Bootstrap",
+		  	"description": "A simple Heroku app where I used Python, Bottle and Bootstrap",
 		  	"images": [
 		  	  "images/scrambler.png"
 			]
@@ -174,7 +177,7 @@ var projects = {
 		  	"title": "Orange Udacity Mug",
 		  	"link": "http://leonardomartinez.co/orange",
 		  	"dates": "2014",
-		  	"description": "My first poject at Udacity Nanodegree",
+		  	"description": "My first CSS project at Udacity Nanodegree",
 		  	"images": [
 		  	  "images/orangemug.png"
 		  	]
@@ -183,7 +186,7 @@ var projects = {
 		  	"title": "Frontend Portfolio",
 		  	"link": "http://leonardomartinez.co/frontend/",
 		  	"dates": "2014",
-		  	"description": "The second project I accomplished for the Udacity Nanodegree",
+		  	"description": "Here I show the projects I have finished so far",
 		  	"images": [
 		  	  "images/frontend.png"
 		  	]
@@ -192,7 +195,7 @@ var projects = {
 		  	"title": "Data Visualizer",
 		  	"link": "http://visualizador.com.co",
 		  	"dates": "2015",
-		  	"description": "A site to visualize the results at Pruebas Saber 11",
+		  	"description": "A site to visualize data. I used django, d3js and postgres hosted on Digital Ocean",
 		  	"images": [
 		  	  "images/visor.png"
 		  	]
