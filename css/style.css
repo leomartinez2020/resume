@@ -156,6 +156,12 @@ ul {
   display: none;
 }
 
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 img {
   padding: 10px;
 }
