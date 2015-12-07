@@ -91,6 +91,10 @@ a {
   display: none;
 }
 
+#work-exp {
+  margin-top: 0;
+}
+
 #skills {
   display: none;
 }
@@ -131,13 +135,19 @@ a {
   background-color: #545476;
 }
 
+.columna {
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+}
+
 .flex-box {
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
+  justify-content: space-around;*/
+  padding: 10px;*/
 }
 
 .center-content {
