@@ -83,7 +83,7 @@ var education = {
 		  	"url": "https://www.udacity.com/course/intro-to-html-and-css--ud304"
 	    },
 	    {
-		  	"title": "Intro to HTML and CSS",
+		  	"title": "JavaScript Basics",
 		  	"school": "Udacity",
 		  	"dates": 2015,
 		  	"url": "https://www.udacity.com/course/javascript-basics--ud804"
