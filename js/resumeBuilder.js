@@ -10,7 +10,7 @@ var bio = {
 	},
 	"welcomeMessage": "Junior Frontend Developer",
 	"skills": [
-		"Python", "Django", "HTML", "CSS", "Javascript", "Mongodb", "Teaching"
+		"Python", "Django", "HTML", "CSS", "JavaScript", "Mongodb", "Teaching", "Linux", "AWS"
 	],
 	"biopic": "images/perfil2.jpg",
 	displayBio: function() {
