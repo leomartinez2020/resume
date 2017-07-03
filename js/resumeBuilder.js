@@ -100,6 +100,18 @@ var education = {
 		  	"dates": 2015,
 		  	"url": "https://university.mongodb.com/courses/M101JS/about"
 	    },
+	    {
+		  	"title": "Business Metrics for Data-Driven Companies",
+		  	"school": "Coursera",
+		  	"dates": 2017,
+		  	"url": "https://es.coursera.org/learn/analytics-business-metrics"
+	    },
+	    {
+		  	"title": "Getting Started with Essay Writing",
+		  	"school": "Coursera",
+		  	"dates": 2017,
+		  	"url": "https://es.coursera.org/learn/getting-started-with-essay-writing"
+	    },
 	],
 	displaySchool: function() {
     	for (i in this.schools) {
