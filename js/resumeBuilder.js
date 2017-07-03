@@ -1,6 +1,6 @@
 var bio = {
 	"name": "Leonardo Martinez",
-	"role": "Web Developer",
+	"role": "Desarrollador Python",
 	"contacts": {
 		"mobile": "3107489655",
 		"email": "lowenhard@yahoo.com",
@@ -8,9 +8,9 @@ var bio = {
 		"twitter": "@leomartinez2015",
 		"location": "Barranquilla, Colombia"
 	},
-	"welcomeMessage": "Python Developer",
+	"welcomeMessage": "Desarrollador Python",
 	"skills": [
-		"Python", "Django", "HTML", "CSS", "JavaScript", "Mongodb", "Teaching", "Linux"
+		"Python", "Django", "HTML", "CSS", "JavaScript", "Mongodb", "Educación", "Linux"
 	],
 	"biopic": "images/perfil2.jpg",
 	displayBio: function() {
@@ -50,9 +50,9 @@ var education = {
 	"schools": [
 	    {
 		  	"name": "Kharkov National University",
-		  	"location": "Kharkov, Ukraine",
-		  	"degree": "Bachelor's degree",
-		  	"majors": ["Biochemistry"],
+		  	"location": "Jarkov, Ucrania",
+		  	"degree": "Titulación Universitaria",
+		  	"majors": ["Bioquímica"],
 		  	"dates": 1993,
 		  	"url": "http://www.univer.kharkov.ua/en"
 	    }
@@ -135,16 +135,16 @@ var work = {
 	"jobs": [
 		{
 		  	"employer": "Centro Colombo-Americano",
-		  	"title": "English Teacher",
-		  	"dates": "February 2003-2017",
-		  	"description": "I taught English to children, teenagers and adults",
+		  	"title": "Profesor de Inglés",
+		  	"dates": "Febrero 2003-2017",
+		  	"description": "Enseñé inglés enfatizando la pronunciación y la producción oral y escrita",
 		  	"location": "Barranquilla, Colombia"
 	    },
 	    {
 		  	"employer": "Instituto Experimental del Atlantico",
-		  	"title": "Chemistry Teacher",
-		  	"dates": "August 2010-2016",
-		  	"description": "I taught Chemistry in one of the best  schools in Colombia",
+		  	"title": "Docente de Química",
+		  	"dates": "Agosto 2010-Junio 2016",
+		  	"description": "Enseñé química y pensamiento científico a estudiantes de bachillerato",
 		  	"location": "Barranquilla, Colombia"
 	    }
 	],
