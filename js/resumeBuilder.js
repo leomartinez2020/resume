@@ -136,14 +136,14 @@ var work = {
 		{
 		  	"employer": "Centro Colombo-Americano",
 		  	"title": "English Teacher",
-		  	"dates": "February 2003-2015",
+		  	"dates": "February 2003-2017",
 		  	"description": "I taught English to children, teenagers and adults",
 		  	"location": "Barranquilla, Colombia"
 	    },
 	    {
 		  	"employer": "Instituto Experimental del Atlantico",
 		  	"title": "Chemistry Teacher",
-		  	"dates": "August 2010-2015",
+		  	"dates": "August 2010-2016",
 		  	"description": "I taught Chemistry in one of the best  schools in Colombia",
 		  	"location": "Barranquilla, Colombia"
 	    }
@@ -168,38 +168,29 @@ var projects = {
 		  	"title": "Word Scrambler",
 		  	"link": "http://pacific-mesa-1286.herokuapp.com/",
 		  	"dates": "2014",
-		  	"description": "A simple Heroku app where I used Python, Bottle and Bootstrap",
+		  	"description": "Una sencilla aplicaci\u00f3n Python en Heroku donde us\u00e9 Bottle y Bootstrap",
 		  	"images": [
 		  	  "images/scrambler.png"
 			]
 	    },
 	    {
-		  	"title": "Orange Udacity Mug",
-		  	"link": "http://leonardomartinez.co/orange",
-		  	"dates": "2014",
-		  	"description": "My first CSS project at Udacity Nanodegree",
+		  	"title": "Educadatos",
+		  	"link": "#",
+		  	"dates": "2017",
+		  	"description": "Aplicaci\u00f3n Django que muestra visualmente los resultados de las pruebas Saber",
 		  	"images": [
-		  	  "images/orangemug.png"
+		  	  "images/educadatos17.png"
 		  	]
 	    },
 	    {
-		  	"title": "Frontend Portfolio",
-		  	"link": "http://leonardomartinez.co/frontend/",
-		  	"dates": "2014",
-		  	"description": "Here I show the projects I have finished so far",
+		  	"title": "Blog Piensapython",
+		  	"link": "https://piensapython.com",
+		  	"dates": "2016",
+		  	"description": "Blog construido con Jekyll acerca de temas de Python y Linux",
 		  	"images": [
-		  	  "images/frontend.png"
+		  	  "images/piensapython.png"
 		  	]
 	    },
-	    {
-		  	"title": "Data Visualizer",
-		  	"link": "http://visualizador.com.co",
-		  	"dates": "2015",
-		  	"description": "A site to visualize data. I used django, d3js and postgres hosted on Digital Ocean",
-		  	"images": [
-		  	  "images/visor.png"
-		  	]
-	    }
 	],
 	displayProjects: function() {
 		for (i in this.projects) {

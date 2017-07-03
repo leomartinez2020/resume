@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <head>
+  <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href="css/style.css" rel="stylesheet" type="text/css"></link>
   <script src="js/jQuery.js"></script>
-  <script src="js/helper.js"></script>
-  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <script src="js/helper.js" charset="UTF-8"></script>
   <meta name="viewport" content="width=device-width">
 </head>
 <body unresolved>
@@ -29,7 +29,7 @@
       </ul>
     </div>
   </div>
-  <script src="js/resumeBuilder.js"></script>
+  <script src="js/resumeBuilder.js" charset="UTF-8"></script>
 
   <script type="text/javascript">
   if(document.getElementsByClassName("flex-item").length === 0) {
@@ -47,14 +47,8 @@
   if(document.getElementsByClassName("education-entry").length === 0) {
     document.getElementById("education").style.display = "none";
   }
-  if(document.getElementsByClassName("skills-entry").length === 0) {
-    document.getElementById("skillsChart").style.display = "none";
-  }
   if(document.getElementsByClassName("flex-item").length === 0) {
     document.getElementById("letsConnect").style.display = "none";
-  }
-  if(document.getElementById("map") == undefined) {
-    document.getElementById("mapDiv").style.display = "none";
   }
   </script>
 </body>
