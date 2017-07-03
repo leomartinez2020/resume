@@ -8,9 +8,9 @@ var bio = {
 		"twitter": "@leomartinez2015",
 		"location": "Barranquilla, Colombia"
 	},
-	"welcomeMessage": "Junior Frontend Developer",
+	"welcomeMessage": "Python Developer",
 	"skills": [
-		"Python", "Django", "HTML", "CSS", "JavaScript", "Mongodb", "Teaching"
+		"Python", "Django", "HTML", "CSS", "JavaScript", "Mongodb", "Teaching", "Linux"
 	],
 	"biopic": "images/perfil2.jpg",
 	displayBio: function() {
