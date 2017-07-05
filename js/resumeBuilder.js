@@ -187,7 +187,7 @@ var projects = {
 	    },
 	    {
 		  	"title": "Educadatos",
-		  	"link": "#",
+		  	"link": "educadatos.com",
 		  	"dates": "2017",
 		  	"description": "Aplicaci\u00f3n Django que muestra visualmente los resultados de las pruebas Saber",
 		  	"images": [
